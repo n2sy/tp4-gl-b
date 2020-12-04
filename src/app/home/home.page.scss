@@ -25,3 +25,36 @@
 #container a {
   text-decoration: none;
 }
+
+.bg-img {
+  padding : 1px;
+  height: 100%;
+  width: 100%;
+  //background-color: red;
+  background-image: url('../../../assets/background.jpg');
+  //background-repeat: repeat-y;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+}
+h5 {
+  color: #e8e8e8;
+  margin-left: 20px;
+  margin-top: -7px;
+  font-size: medium;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.add-button {
+  --background: #383a3e;
+  position: absolute;
+  bottom: 5px;
+  width: 96%;
+  --color: #ffffff;
+  margin-left: 2%;
+}
